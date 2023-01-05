@@ -1,0 +1,15 @@
+{
+  "name": "momentum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cp ./src/index.html ./dist/index.html & cp ./src/script.js ./dist/script.js & cp ./src/assets -r ./dist & cp ./src/js -r ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
